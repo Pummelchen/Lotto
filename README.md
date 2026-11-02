@@ -1,0 +1,2 @@
+# Lotto
+Lotto number Analyzer.
