@@ -181,6 +181,15 @@ Anti-sharing rewards the intuition that unusual patterns may be chosen by fewer 
 
 All profiles are heuristics; none changes the odds of any exact ticket.
 
+## Run both best-ticket scans
+
+```bash
+./run_best.sh            # refreshes live sources, then runs both
+./run_best.sh --offline  # no network refresh
+```
+
+The script runs `best --runs 1000 --top 5` for Lotto and Eurojackpot.
+
 ## Unified CLI
 
 ```bash
