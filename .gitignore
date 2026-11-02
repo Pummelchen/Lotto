@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.db
+.ruff_cache/
+.pytest_cache/
+.DS_Store
+*.log
